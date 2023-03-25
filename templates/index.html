@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {%for post in posts%}
+    <li><h2> Number: {{post[0]}} || Title: {{post[1]}} || Description: {{post[2]}} || Date: {{post[3]}} </h2></li>
+    {%endfor%}
+</ul>
+</body>
+</html>
